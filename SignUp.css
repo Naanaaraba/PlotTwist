@@ -1,0 +1,203 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #1c1b22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: #2A7E7C; /* Text color complementing background */
+  }
+  
+  .container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    background: #29293d;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    background: #CCBAA6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .left-section .content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .background-image {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .caption {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    color: #5B4034; /* Subtle contrast */
+  }
+  
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+  }
+  
+  .slider-dots span {
+    width: 8px;
+    height: 8px;
+    background: #555;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .slider-dots .active {
+    background: #fff;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    padding: 40px;
+    background: #CCBAA6;
+  }
+  
+  /* Website Name Styling */
+  .form-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2A7E7C;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .form-container h1::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #2A7E7C;
+    margin: 10px auto 0;
+    border-radius: 3px;
+  }
+  
+  .form-container p {
+    font-size: 14px;
+    color: #5B4034; /* Subtle contrast for secondary text */
+  }
+  
+  .form-container p a {
+    color: #2A7E7C; /* Highlight link color */
+    text-decoration: none;
+  }
+  
+  .form-container p a:hover {
+    color: #355C43; /* Darker green for hover */
+    text-decoration: underline;
+  }
+  
+  /* Input Fields */
+  .name-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .name-inputs input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #d1a888; /* Soft neutral for text boxes */
+    color: #46322B; /* Text color */
+    outline: none;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background: #d1a888; /* Soft neutral */
+    color: #46322B;
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #5B4034; /* Placeholder text color */
+  }
+  
+  input:focus {
+    border: 1px solid #355C43; /* Focus border for better UX */
+  }
+  
+  /* Checkbox Alignment */
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduced gap for better proximity */
+    font-size: 14px;
+    color: #46322B;
+  }
+  
+  .checkbox input {
+    width: auto;
+    margin: 0; /* Remove excess margins around checkbox */
+  }
+  
+  .checkbox a {
+    color: #2A7E7C;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field .show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #46322B; /* Icon color */
+  }
+  
+  /* Buttons */
+  .create-account-button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background: #2A7E7C;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-account-button:hover {
+    background: #355C43; /* Darker green for hover */
+  }
+  
+  .google-button:hover, .apple-button:hover {
+    background: #555;
+  }
+  

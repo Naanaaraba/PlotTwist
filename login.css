@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
-  color: #2A7E7C; /* Text color complementing background */
+  color: #2A7E7C; 
 }
 
 .container {
@@ -49,7 +49,7 @@ body {
   font-size: 18px;
   font-style: italic;
   margin-top: 20px;
-  color: #5B4034; /* Subtle contrast */
+  color: #5B4034; 
 }
 
 .slider-dots {
@@ -78,7 +78,7 @@ body {
   background: #CCBAA6;
 }
 
-/* Website Name Styling */
+
 .form-container h1 {
   font-size: 36px;
   font-weight: bold;
@@ -101,16 +101,16 @@ body {
 
 .form-container p {
   font-size: 14px;
-  color: #5B4034; /* Subtle contrast for secondary text */
+  color: #5B4034; 
 }
 
 .form-container p a {
-  color: #2A7E7C; /* Highlight link color */
+  color: #2A7E7C; 
   text-decoration: none;
 }
 
 .form-container p a:hover {
-  color: #355C43; /* Darker green for hover */
+  color: #355C43; 
   text-decoration: underline;
 }
 
@@ -125,8 +125,8 @@ body {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #d1a888; /* Soft neutral for text boxes */
-  color: #46322B; /* Text color */
+  background: #d1a888; 
+  color: #46322B; 
   outline: none;
 }
 
@@ -136,31 +136,31 @@ input {
   margin: 10px 0;
   border-radius: 5px;
   border: none;
-  background: #d1a888; /* Soft neutral */
+  background: #d1a888; 
   color: #46322B;
   outline: none;
 }
 
 input::placeholder {
-  color: #5B4034; /* Placeholder text color */
+  color: #5B4034; 
 }
 
 input:focus {
-  border: 1px solid #355C43; /* Focus border for better UX */
+  border: 1px solid #355C43; 
 }
 
-/* Checkbox Alignment */
+
 .checkbox {
   display: flex;
   align-items: center;
-  gap: 10px; /* Reduced gap for better proximity */
+  gap: 10px; 
   font-size: 14px;
   color: #46322B;
 }
 
 .checkbox input {
   width: auto;
-  margin: 0; /* Remove excess margins around checkbox */
+  margin: 0; 
 }
 
 .checkbox a {
@@ -177,7 +177,7 @@ input:focus {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-  color: #46322B; /* Icon color */
+  color: #46322B; 
 }
 
 /* Buttons */
@@ -194,9 +194,7 @@ input:focus {
 }
 
 .create-account-button:hover {
-  background: #355C43; /* Darker green for hover */
+  background: #355C43; 
 }
 
-.google-button:hover, .apple-button:hover {
-  background: #555;
-}
+

@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fdf7f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #b68d40;
+    padding: 15px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Review Container */
+.review-container {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Rating Aggregation */
+.rating-aggregation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rating-aggregation h2 {
+    font-size: 2rem;
+    color: #b68d40;
+}
+
+.stars {
+    font-size: 1.5rem;
+    color: #f0c040;
+}
+
+/* Write a Review */
+.write-review form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.write-review label {
+    font-weight: bold;
+}
+
+.write-review input,
+.write-review textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.star-rating {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating span {
+    display: inline-block;
+}
+
+.star-rating .selected {
+    color: #f0c040;
+}
+
+.write-review button {
+    background-color: #b68d40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.write-review button:hover {
+    background-color: #9c7534;
+}
+
+/* User Reviews */
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.review-header {
+    font-weight: bold;
+    color: #b68d40;
+}
+
+.review-votes {
+    margin-top: 10px;
+}
+
+.vote-btn {
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.vote-btn:hover {
+    color: #333;
+}

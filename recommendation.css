@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fdf7f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #b68d40;
+    padding: 15px 10%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.recommendation-container {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h1 {
+    font-size: 2rem;
+    color: #b68d40;
+}
+
+.intro button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #b68d40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro button:hover {
+    background-color: #9c7534;
+}
+
+/* Recommendation Sections */
+.recommendation-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.recommendation-box {
+    background-color: #f0e2d1;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-box h2 {
+    font-size: 1.2rem;
+    color: #b68d40;
+    margin-bottom: 10px;
+}
+
+.book {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.book img {
+    width: 60px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book-info h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.book-info p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
